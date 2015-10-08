@@ -1,4 +1,4 @@
-angular.module('routerApp', ['routerRoutes'])
+angular.module('routerApp', ['routerRoutes', 'ngAnimate'])
 
 //create the controllers
 // this will be the controllwe for the ENTIRE site
@@ -7,7 +7,7 @@ angular.module('routerApp', ['routerRoutes'])
 	 var vm = this;
 
 	 // create a bigMessage variable to display in our view
-	 vm.bigMessage = 'A smooth sea never made a skilled sailor.';
+	 vm.bigMessage = 'This is my main controller page.';
  })
 
  // home page specific controller
